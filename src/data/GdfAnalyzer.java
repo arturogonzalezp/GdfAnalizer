@@ -7,12 +7,12 @@ import java.io.IOException;
 import java.nio.charset.Charset;
 import java.util.ArrayList;
 
-public class GdfAnalizer {
+public class GdfAnalyzer {
     private BufferedReader br = null;
 	private FileReader fr = null;
 	private ArrayList<GdfNode> nodeList;
 	
-	public GdfAnalizer(File file){
+	public GdfAnalyzer(File file){
 		nodeList = new ArrayList<GdfNode>();
 		System.out.println("Opening: " + file.getAbsolutePath());
 		initialize(file);
