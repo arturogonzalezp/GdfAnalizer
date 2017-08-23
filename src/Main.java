@@ -1,5 +1,9 @@
+/**
+ * 
+ * @author César Arturo González
+ *
+ */
 import java.util.ArrayList;
-
 import data.*;
 import visual.AnalizerWindow;
 

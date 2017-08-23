@@ -1,3 +1,8 @@
+/**
+ * 
+ * @author César Arturo González
+ *
+ */
 package visual;
 
 import java.awt.TextArea;
